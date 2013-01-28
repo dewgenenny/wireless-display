@@ -48,7 +48,7 @@ int display_counter = 0;
 void setup(void)
 {
   Serial.begin(57600);
-  Serial.println("RF24Network/examples/helloworld_rx/");
+  Serial.println("Weather Display v1.0");
   lcd.begin(16, 2);
   lcd.clear();
   SPI.begin();
@@ -180,4 +180,3 @@ void update_display(void)
 }
 
 
-// vim:ai:cin:sts=2 sw=2 ft=cpp
